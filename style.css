@@ -1,0 +1,90 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #EFEDE5;
+    padding: 4%;
+}
+
+main {
+    display: flex;
+    margin-left: 10%;
+}
+
+.section1 {
+    margin-top: 5%;
+}
+
+
+.section3 {
+    margin-top: 10%;
+}
+
+:root {
+    --cor-letra: #9F6C5C; 
+    --fonte-principal: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.titulo {
+    color: var(--cor-letra);
+    font-size: 58px;
+    font-weight: 100;
+    font-family: var(--fonte-principal);
+    text-align: left;
+}
+
+.subtitulo {
+    font-size: small;
+    font-weight: 100;
+    font-family: var(--fonte-principal);
+    color: var(--cor-letra);
+    padding-top: 2%;
+    text-align: left;
+
+}
+
+.paragrafo1 {
+    color: var(--cor-letra);
+    font-size: var(--fonte-principal);
+    font-weight: bold;
+    margin-top: 20%;
+    text-align: left;
+}
+
+.image1 {
+    border-radius: 10%;
+    width: 70%;
+    height: auto;
+
+}
+
+.div1 {
+    padding: 5%;
+    color: var(--cor-letra);
+}
+
+a {
+    color: var(--cor-letra)
+}
+
+li {
+    list-style-image: url('setaicon.png');
+    padding: 2%;
+    color: var(--cor-letra);
+    font-family: var(--fonte-principal);
+  }
+
+  .image2 {
+    width: 40%;
+    height: auto;
+    margin-top: 15%;
+    border-radius: 10%;
+    
+  }
+
+  .lifinal {
+    font-size: small;
+    padding-top: 10%;
+  }
